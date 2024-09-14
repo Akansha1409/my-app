@@ -1,0 +1,88 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  min-height: 100vh;
+}
+
+.app-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.app-header h1 {
+  font-size: 3rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+}
+
+.app-header p {
+  color: #7f8c8d;
+}
+
+.refresh-btn {
+  margin-top: 20px;
+  background-color: #1abc9c;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.refresh-btn:hover {
+  background-color: #16a085;
+}
+
+.data-card {
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px 0;
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  background-color: #ffffff;
+}
+
+.table-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.view-btn {
+  background-color: transparent;
+  color: #1abc9c;
+  border: 2px solid #1abc9c;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.view-btn:hover {
+  background-color: #1abc9c;
+  color: white;
+}
+
+.p-datatable {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.p-datatable-striped tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.custom-datatable .p-datatable-header {
+  background-color: #2c3e50;
+  color: #fff;
+}
+
+.p-datatable-hover tbody tr:hover {
+  background-color: #ecf0f1;
+}
+
+.app-footer {
+  margin-top: 50px;
+  color: #95a5a6;
+}
